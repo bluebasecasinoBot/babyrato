@@ -38,11 +38,11 @@ __SYD._p5 = () =>{
                 },
                 [
                     __c('h1',{style:`width:100%;text-align:center;font-weight:900;font-size:${__p(['_p5','__font'],{1:'50px'})['1']};margin-bottom:25px;font-family:header;`+__sC['txt_shade2']()},['TOKENOMICS']),//+__sC['txt_shade3']()
-                    __SYD.about_text_tokenomics('🔥 $BABY RATO  is PUMPING – 64% Bonded! 🔥'),
-                    __SYD.about_text_tokenomics('💰 Market Cap: $22K (Still Early!)'),
-                    __SYD.about_text_tokenomics('✅ Liquidity Locked – 100% SAFU 🔒'),
-                    __SYD.about_text_tokenomics('✅ Whales Accumulating – Don’t Miss Out!'),
-                    __SYD.about_text_tokenomics('Token Supply: 1,000,000,000 $BABYRATO'),
+                    // __SYD.about_text_tokenomics('🔥 $BABY RATO  is PUMPING – 64% Bonded! 🔥'),
+                    // __SYD.about_text_tokenomics('💰 Market Cap: $22K (Still Early!)'),
+                    // __SYD.about_text_tokenomics('✅ Liquidity Locked – 100% SAFU 🔒'),
+                    // __SYD.about_text_tokenomics('✅ Whales Accumulating – Don’t Miss Out!'),
+                    // __SYD.about_text_tokenomics('Token Supply: 1,000,000,000 $BABYRATO'),
                     __SYD.caBtn()
                 ]
             ),

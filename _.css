@@ -43,7 +43,7 @@ body{
 }
 .btn_buy
 {
-    background-color:#ffe202 ;
+    background-color:#85c764 ;
     font-weight: 900;
     box-shadow: 3px 3px 0px rgba(51, 51, 51);
     border-radius: 10px;
@@ -62,7 +62,7 @@ body{
 
 .btn_buy:hover
 {
-    background-color: rgb(59 130 246);
+    background-color: rgb(100 153 73);
     transform: scale3d(.9,.9,.9);
     box-shadow: 0px 0px 0px 1px #171717;
 }

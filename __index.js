@@ -119,7 +119,7 @@ __SYD.container = () =>{
                         __c(
                             "h1",
                             {
-                                style:"min-width:max-content;width:100%;text-align:center;font-weight:900;color:#fff;text-transform:uppercase;font-style:italic;font-family:sunrise;",
+                                style:"min-width:max-content;width:100%;text-align:center;font-weight:900;color:#fff;text-transform:uppercase;font-style:italic;font-family:header;",
                                 class:"footerText"
                             },
                             [
@@ -188,7 +188,7 @@ __SYD.socials__main = () =>{
             "a",
             {
                 style:"height:fit-content;width:fit-content;",
-                href:"#"
+                href:"https://etherscan.io/"
             },
             [
                 __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/basescan.png);"},[],
@@ -201,7 +201,7 @@ __SYD.socials__main = () =>{
             "a",
             {
                 style:"height:fit-content;width:fit-content;",
-                href:"#"
+                href:"https://dexscreener.com/"
             },
             [
                 __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/dex_.png);"},[],
@@ -214,7 +214,7 @@ __SYD.socials__main = () =>{
             "a",
             {
                 style:"height:fit-content;width:fit-content;",
-                href:"#"
+                href:"https://app.uniswap.org/"
             },
             [
                 __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/uniswap_.png);"},[],

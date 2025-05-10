@@ -77,10 +77,6 @@ __SYD._p3_aux = () =>{
     )
 }
 
-__SYD.buyNowBtn = () =>{
-    return __c('a',{href:'https://tools.smithii.io/launches-list/solana',target:'blank',style:`display:${__p(['navBar','__nav_d'],'flex')};align-items:center;justify-content:center;padding:15px 30px;text-decoration:none;`+__sC["txt_shade3"](),class:'btn_buy'},['CLAIM'],{genericStyle:['bg_fit']})
-}
-
 
 __SYD.page1Socials_large_icons = () =>{
     return __c(

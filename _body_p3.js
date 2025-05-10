@@ -11,7 +11,7 @@ __SYD._p3 = () =>{
         [
             __c('h1',{style:`font-family:header;font-weight:900;font-size:${__p(['_p3','__size'],'50px')};`+__sC['txt_shade2']()},['ABOUT']),
 
-            __c('h1',{style:`font-family:header;font-weight:900;font-size:${__p(['_p3','__size'],'50px') == "50px" ? "60px" : "35px"};`+__sC['txt_shade2']()},['BABY COCORO']),
+            __c('h1',{style:`font-family:header;font-weight:900;font-size:${__p(['_p3','__size'],'50px') == "50px" ? "60px" : "35px"};`+__sC['txt_shade2']()},['BABY RATO']),
             __c(
                 "div",
                 {
@@ -28,18 +28,19 @@ __SYD._p3 = () =>{
                             background:"#000",
                             borderRadius:"60px",
                             color:"#fff",
-                            borderLeft:"6px solid #333",
-                            borderBottom:"6px solid #333"
+                            borderLeft:"6px solid rgb(19, 32, 13)",
+                            borderBottom:"6px solid rgb(19, 32, 13)",
+                            overflow:"hidden"
                             // flexDirection:'row',
                             // transform:'unset'
                         }
-                    } , {method:'remove' , style:['height' , 'minHeight' , 'padding' , 'paddingTop']}])
+                    } , {method:'remove' , style:['height' , 'minHeight' , 'paddingTop']}])
                 },
                 [
                     __c(
                         'div',
                         {
-                            style:`min-height:${__p(['_p3','__size'],'50px') === '50px' ? '80vh' : '300px'};min-width:${__p(['_p3','__size'],'50px') === '50px' ? '40%' : '100%'};background-image:url("./assets/aux.png");background-size:contain;border-radius:15px;`,
+                            style:`min-height:${__p(['_p3','__size'],'50px') === '50px' ? '80vh' : '300px'};min-width:${__p(['_p3','__size'],'50px') === '50px' ? '40%' : '100%'};background-image:url("./assets/about.png");background-size:contain;border-radius:15px;`,
                         },
                         [
                             
@@ -57,7 +58,7 @@ __SYD._p3 = () =>{
                             __c(
                                 "p",
                                 {
-                                    style:"padding:15px;background:transparent;text-align:center;width:fit-content;",
+                                    style:"padding:15px;background:transparent;text-align:center;width:100%;",
                                     // class:"tab_text"
                                 },
                                 [
@@ -78,7 +79,7 @@ __SYD._p3 = () =>{
                 state:{__size:'50px',__flex:'row',__font:{1:'50px',2:'20px'}}
             },
             mediaQuery:{
-                query:[{size:'<900px',prop:{__size:'30px',__flex:'column-reverse',__font:{1:'30px',2:'17px'}}}],
+                query:[{size:'<900px',prop:{__size:'30px',__flex:'column',__font:{1:'30px',2:'17px'}}}],
                 defState:{__size:'50px',__flex:'row',__font:{1:'50px',2:'20px'}}
             }
         }
@@ -105,18 +106,18 @@ __SYD.page1Socials_large_icons = () =>{
 }
 
 __SYD.about_text = () =>{
-    return __c('p',{style:`font-size:${__p(['_p3' , '__font'],{2:'20px'})['2']};line-height: unset;max-width:500px;text-align:center;font-weight:100;padding:${__p(["_p3" , "__flex"],"row") === "row" ? "50px" : "20px"};`},[
+    return __c('p',{style:`font-size:${__p(['_p3' , '__font'],{2:'20px'})['2']};line-height: unset;text-align:center;font-weight:100;padding:${__p(["_p3" , "__flex"],"row") === "row" ? "50px" : "20px"};`},[
         __c(
             "p",
             {
-                style:"font-size:20px;line-height:50px;border-bottom:1px solid;text-align:left;"
+                style:"font-family:header;font-size:30px;line-height:50px;border-bottom:2px solid;text-align:left;color:#85c764;"
             }
             ,[
-                "What Is Baby Cocoro"
+                "What Is Baby Rato"
             ]
         ),
         __c("p" , {style:`margin-top:12px;text-align:${__p(["_p3" , "__flex"],"row") === "row" ? "left" : "center"};`} , [
-            `Baby Cocoro isn’t here to play nice. It’s the unruly, turbo-charged spawn of the legendary Cocoro—engineered for absolute chaos on Ethereum’s wild frontier. We’re talkin’ lightning-fast trades, gas fees so low they practically vanish, and a savage reward system that rains down free Cocoro on real holders. Every degen move fuels the fire.`
+            `Welcome to Baby Rato, a meme coin inspired by Matt Furie’s iconic Rato the Rat. Born from the same quirky spirit, Baby Rato is here to bring fun, community, and a touch of mischief to the crypto world. Join us as we scamper into the future!`
         ]),
         __c("p" , {style:`margin-top:12px;text-align:${__p(["_p3" , "__flex"],"row") === "row" ? "left" : "center"};`} , [
             `You ape, you earn. You trade, you grow. This ain’t your grandma’s memecoin—it’s pure blockchain anarchy with style.`

@@ -27,7 +27,8 @@ __SYD._p2 = () =>{
                     marginBottom:'20px',
                     alignItems:'center',
                     justifyContent:'space-around',
-                    marginTop:"100px"
+                    marginTop:"100px",
+                    rowGap:"30px"
                 }
             })//  + __sC['txt_shade1']()
         },
@@ -38,16 +39,17 @@ __SYD._p2 = () =>{
                     style:`min-height:fit-content;height:100%;width:${__p(['_p2','_flex'],'row') === 'row' ? '40%' : '100%'};background:unset;display:flex;justify-content:center;align-items:${__p(['_p2','_flex'],'row') === 'row' ? 'flex-start' : 'center'};flex-direction:column;row-gap:20px`
                 },
                 [
-                    __c('h1',{class:'',style:`font-family:header;font-size:${__p(['_p2','__font'],{1:'60px'})['1']};`+__sC['txt_shade2']()},[__c('span',{style:'font-family:header;font-weight:900;'+__sC['txt_shade3']()},["  $BABY COCORO "])]),
+                    __c('h1',{class:'',style:`font-family:header;font-size:${__p(['_p2','__font'],{1:'60px'})['1']};`+__sC['txt_shade2']()},[__c('span',{style:'font-family:header;font-weight:900;'+__sC['txt_shade3']()},["  $BABY RATO "])]),
                     __SYD.about_text_p2(),
                     // __SYD.page1Socials_large_icons(),
-                    __SYD.caBtn()
+                    __SYD.caBtn(),
+                    __SYD.socials__main__()
                 ]
             ),
             __c(
                 'div',
                 {
-                    style:`min-height:${__p(['_p2','_flex'],'row') === 'row' ? '500px' : '400px'};width:${__p(['_p2','_flex'],'row') === 'row' ? '400px' : '300px'};background-image:url("./assets/n_logo.jpeg") ;background-size:cover;border-radius:30%;`//url("./assets/goatx.jpg")
+                    style:`min-height:${__p(['_p2','_flex'],'row') === 'row' ? '500px' : '400px'};width:${__p(['_p2','_flex'],'row') === 'row' ? '400px' : '300px'};background-image:url("./assets/n_logo.png") ;background-size:cover;border-radius:30%;`//url("./assets/goatx.jpg")
                 },[],
                 {
                     genericStyle:[__p(['_p2','_flex'],'row') === 'row' ? 'bg_cover' : 'bg_cover'],
@@ -110,7 +112,7 @@ __SYD.caBtn = () =>{
                             style:"height:50px;width:calc(100% - 50px);padding:5px;display:flex;align-items:center;"
                         },
                         [
-                            __c('p',{style:'font-weight:700;font-size:16px;max-width:100%;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;text-shadow:none;'},['--------------------------------------------'])
+                            __c('p',{style:'font-family:header;font-weight:700;font-size:16px;max-width:100%;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;text-shadow:none;'},['--------------------------------------------'])
                         ]
                     ),
                     __c(
@@ -157,7 +159,82 @@ __SYD.freeText_def_small = (text) =>{
 }
 
 __SYD.about_text_p2 = () =>{
-    return __c('p',{style:`font-size:${__p(['_p2','__font'],{2:'50px'})['2']};text-align:${__p(['_p2','__font'],{2:'50px'})['2'] === "50px" ? "left" : "center"};font-weight:300;width:100%;max-width:400px;font-family:sunrise;word-spacing:6px;`+__sC['txt_shade3']()},[
+    return __c('p',{style:`font-size:${__p(['_p2','__font'],{2:'50px'})['2']};text-align:${__p(['_p2','__font'],{2:'50px'})['2'] === "50px" ? "left" : "center"};font-weight:300;width:100%;max-width:400px;font-family:header;word-spacing:6px;`+__sC['txt_shade3']()},[
        "The Next 100x Ethereum Meme Coin!",
+    ])
+}
+
+__SYD.socials__main__ = () =>{
+    return __c(
+    "div",
+    {
+        style:"display:flex;justify-content:center;column-gap:15px;row-gap:30px;height:fit-content;width:100%;flex-wrap:wrap;border:3px dashed rgb(100 153 73);padding:15px;border-radius:15px;"
+    },
+    [
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"border:2px solid #fff;height:40px;min-width:40px;border-radius:50%;background-color:#fff;background-image:url(./assets/frog.png);"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"https://x.com/babybbycoco?s=21"
+            },
+            [
+                __c("div" , {style:"height:40px;min-width:40px;border-radius:50%;border:2px solid #fff;background-color:transparent;background-image:url(./assets/x.png);"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:40px;min-width:40px;border-radius:50%;border:2px solid #fff;background-image:url(./assets/basescan.png);background-color:#fff;"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:40px;min-width:150px;border-radius:30px;border:2px solid #fff;background-image:url(./assets/dex.png);background-color:#fff;"},[],
+                    {
+                        genericStyle:["bg_fit"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:40px;min-width:150px;border-radius:30px;border:2px solid #fff;background-image:url(./assets/uniswap.png);background-color:#fff;"},[],
+                    {
+                        genericStyle:["bg_fit"]
+                    })
+            ]
+        ),
     ])
 }

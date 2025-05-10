@@ -5,6 +5,7 @@
     outline: none;
     border: none;
     scroll-behavior: smooth;
+    transition: all linear .3s;
     /* outline: 1px dashed #171717; */
 }
 body{
@@ -28,11 +29,11 @@ body{
 }
 @font-face {
     font-family: header;
-    src: url('./assets/Oxanium-VariableFont_wght.ttf');
+    src: url('./assets/Bestime.ttf');
 }
 .btn_buy__
 {
-    background-color: #ffe202;
+    background-color: #85c764;
     font-weight: 900;
     box-shadow: 3px 3px 0px rgba(51, 51, 51, 0.5);
     border-radius: 10px;
@@ -53,7 +54,7 @@ body{
 
 .btn_buy__:hover
 {
-    background-color: rgb(59 130 246);
+    background-color: rgb(100 153 73);
     transform: scale3d(.9,.9,.9);
     box-shadow: 0px 0px 0px 1px #171717
     /* color: #fba388; */
@@ -155,7 +156,7 @@ h1{
 {
     position: relative;
     isolation: isolate;
-    text-align: right;
+    text-align: left;
 }
 
 .right_slant::before

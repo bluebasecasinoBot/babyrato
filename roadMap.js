@@ -30,79 +30,92 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "div",
                         {
-                            style:`color:#000000;font-family:sunrise;display:flex;flex-direction:column;align-items:center;row-gap:60px;height:fit-content;width:100%;font-weight:500;`// +__sC['txt_shade3']()//transform: translateX(25%) scale(${__p(['roadMapPage' , '__query'],false) ? ".8" : "1"});
+                            style:`color:#fff;font-family:sunrise;display:flex;flex-direction:column;align-items:center;row-gap:60px;height:fit-content;width:100%;font-weight:500;`// +__sC['txt_shade3']()//transform: translateX(25%) scale(${__p(['roadMapPage' , '__query'],false) ? ".8" : "1"});
                         },
                         [
                             __c(
                                 "p",
                                 {
-                                    style:`background:#fffaec ;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:0s;`,
+                                    style:`background:#000 ;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px rgb(100 153 73);border-radius:10px;animation-delay:0s;`,
                                     class:"left_slant "
                                 },
                                 [
-                                        __c("strong",{},[`1️⃣ Launch & Liquidity – `]) , `Token launch, presale, and liquidity pool activated. 💧`
+                                    __c("strong",{style:"font-size:17px;font-family:header;"},[`Phase 1 – `]) , `Birth of Baby Rato`,
+                                    __c("li" , {style:`margin-top:12px;width:100%;text-align:left;color:#85c764;`} , ['Launch on Ethereum (ERC-20)']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Deploy smart contract (renounced/locked liquidity)']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Create website + socials (Twitter, Telegram, Discord)']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Meme campaign kick-off: “Born to Scamper”'])
                                 ]
                             ),
                             __c(
                                 "p",
                                 {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;"`,
-                                    class:"left_slant "
+                                    style:`background:#000;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px rgb(100 153 73);border-radius:10px;animation-delay:.4s;"`,
+                                    class:"right_slant "
                                 },
                                 [
-                                    __c("strong",{},[`2️⃣ Airdrops & Community –`]) , `Rewarding early degens and growing the Baby Cocoro community. 🎁`
+                                    __c("strong",{style:"font-size:17px;font-family:header;"},[`Phase 2 – `]) , `Growing Paws`,
+                                    __c("li" , {style:`margin-top:12px;width:100%;text-align:left;color:#85c764;`} , ['Community contests (memes, art, lore)']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Listings on CoinGecko & CoinMarketCap']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['1,000+ holders']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['NFT teaser drop: Baby Rato Origins'])
                                 ]
                             ),
                             __c(
                                 "p",
                                 {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.8s;`,
-                                    class:"left_slant"
-                                },
-                                [
-                                    __c("strong",{},[`3️⃣ Listings & Exposure –`]) , `Apply to CoinGecko, CMC, and push viral campaigns. 🚀`
-                                ]
-                            ),
-                            __c(
-                                "p",
-                                {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;`,
-                                    class:"right_slant"
-                                },
-                                [
-                                    __c("strong",{},[`4️⃣ Utility & HODL Benefits –`]) , ` Staking, NFTs, and exclusive rewards. 🔥`
-                                ]
-                            ),
-                            __c(
-                                "p",
-                                {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
-                                    class:"right_slant"
-                                },
-                                [
-                                    __c("strong",{},[`5️⃣ Partnerships & Collabs –`]) , `Meme alliances and Web3 integrations. 🤝`
-                                ]
-                            ),
-                            __c(
-                                "p",
-                                {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
-                                    class:"right_slant"
-                                },
-                                [
-                                    __c("strong",{},[`6️⃣ CEX Listings & Scaling –`]) , `Strategic exchange listings and mass adoption drive. 📈`
-                                ]
-                            ),
-                             __c(
-                                "p",
-                                {
-                                    style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
+                                    style:`background:#000000;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:-2px 2px 1px rgb(100 153 73);border-radius:10px;animation-delay:.8s;text-align:left;`,
                                     class:""
                                 },
                                 [
-                                    __c("strong",{},[`7️⃣ DAO Lite & Merch – `]) , `Governance voting and limited-edition Baby Cocoro merch. 🧢`
+                                    __c("strong",{style:"font-size:17px;font-family:header;"},[`Phase 3 – `]) , `Rato Takes Over`,
+                                    __c("li" , {style:`margin-top:12px;width:100%;text-align:left;color:#85c764;`} , ['NFT collection release']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['DAO formation for community votes']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Ethereum partnerships & meme alliances']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['CEX listings (Tier 2)']),
+                                    __c("li" , {style:`margin-top:5px;width:100%;text-align:left;color:#85c764;`} , ['Merch store launch'])
                                 ]
-                            )
+                            ),
+                            // __c(
+                            //     "p",
+                            //     {
+                            //         style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;`,
+                            //         class:"right_slant"
+                            //     },
+                            //     [
+                            //         __c("strong",{},[`4️⃣ Utility & HODL Benefits –`]) , ` Staking, NFTs, and exclusive rewards. 🔥`
+                            //     ]
+                            // ),
+                            // __c(
+                            //     "p",
+                            //     {
+                            //         style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
+                            //         class:"right_slant"
+                            //     },
+                            //     [
+                            //         __c("strong",{},[`5️⃣ Partnerships & Collabs –`]) , `Meme alliances and Web3 integrations. 🤝`
+                            //     ]
+                            // ),
+                            // __c(
+                            //     "p",
+                            //     {
+                            //         style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
+                            //         class:"right_slant"
+                            //     },
+                            //     [
+                            //         __c("strong",{},[`6️⃣ CEX Listings & Scaling –`]) , `Strategic exchange listings and mass adoption drive. 📈`
+                            //     ]
+                            // ),
+                            //  __c(
+                            //     "p",
+                            //     {
+                            //         style:`background:#fffaec;padding:15px 10px;transform:translateX(0px);width:${__p(["roadMapPage" , "__query"],false) ? "100%" : "50%"};min-width:200px;margin-left:15px;box-shadow:2px 2px 1px #333333;border-radius:10px;animation-delay:.4s;text-align:right;`,
+                            //         class:""
+                            //     },
+                            //     [
+                            //         __c("strong",{},[`7️⃣ DAO Lite & Merch – `]) , `Governance voting and limited-edition Baby Cocoro merch. 🧢`
+                            //     ]
+                            // )
                         ]
                     )
                 ]

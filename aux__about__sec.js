@@ -5,7 +5,7 @@ __SYD._p3_aux = () =>{
     return __c(
         'div',
         {
-            style:"display:flex;flex-direction:column;align-items:center;row-gap:20px;" + __sC._body_style({method:'use' , style:['background' , 'height' , 'width' , 'minHeight' , 'padding' , 'paddingTop' , 'marginTop' , 'border' , 'borderLeft' , 'borderRight' , 'borderTop']}), //+ __sC['txt_shade1'](),
+            style:`display:flex;flex-direction:column;align-items:center;row-gap:20px;` + __sC._body_style({method:'use' , style:['background' , 'height' , 'width' , 'minHeight' , 'padding' , 'paddingTop' , 'marginTop' , 'border' , 'borderLeft' , 'borderRight' , 'borderTop']}) + `padding-left:${__p(['_p3_aux','__size'],'50px') === '50px' ? '10px' : '0px'};padding-right:${__p(['_p3_aux','__size'],'50px') === '50px' ? '10px' : '0px'}`, //+ __sC['txt_shade1'](),
             id:'about_aux'
         },
         [
@@ -19,7 +19,6 @@ __SYD._p3_aux = () =>{
                             flexDirection:__p(['_p3_aux','__flex'],'row-reverse'),
                             justifyContent:'center',
                             alignItems:"center",
-                            padding:'20px 10px',
                             minHeight:'unset',
                             marginTop:"unset",
                             border:"unset"
@@ -32,7 +31,7 @@ __SYD._p3_aux = () =>{
                     __c(
                         'div',
                         {
-                            style:`min-height:${__p(['_p3_aux','__size'],'50px') === '50px' ? '80vh' : '300px'};min-width:${__p(['_p3_aux','__size'],'50px') === '50px' ? '40%' : '100%'};background-image:url("./assets/about.png");background-size:contain;border-radius:15px;`,
+                            style:`min-height:${__p(['_p3_aux','__size'],'50px') === '50px' ? '80vh' : '300px'};min-width:${__p(['_p3_aux','__size'],'50px') === '50px' ? '40%' : '100%'};background-image:url("./assets/n_logo.png");background-size:contain;border-radius:15px;`,
                         },
                         [
                             
@@ -51,7 +50,7 @@ __SYD._p3_aux = () =>{
                             __c(
                                 "p",
                                 {
-                                    style:"padding:15px;background:transparent;text-align:center;width:fit-content;",
+                                    style:"padding:15px;background:transparent;text-align:center;width:100%",
                                     // class:"tab_text"
                                 },
                                 [
@@ -59,7 +58,6 @@ __SYD._p3_aux = () =>{
                                     // __SYD.about_text_2(),
                                 ]
                             ),
-                            __SYD.page1Socials_large_icons()
                             
                         ]
                     )
@@ -99,25 +97,29 @@ __SYD.page1Socials_large_icons = () =>{
 }
 
 __SYD.about_text_aux = () =>{
-    return __c('p',{style:`border-left:6px solid #333;border-bottom:6px solid #333;font-size:${__p(['_p3_aux' , '__font'],{2:'20px'})['2']};line-height: unset;max-width:500px;text-align:left;font-weight:100;padding:${__p(["_p3_aux" , "__flex"],"row-reverse") === "row-reverse" ? "50px" : "20px"};background:#fff;border-radius:60px;color:rgb(2, 43, 73);`},[
+    return __c('p',{style:`display:flex;flex-direction:column;gap:15px;border-left:6px solid rgb(19, 32, 13);border-bottom:6px solid rgb(19, 32, 13);font-size:${__p(['_p3_aux' , '__font'],{2:'20px'})['2']};line-height: unset;text-align:left;font-weight:100;padding:${__p(["_p3_aux" , "__flex"],"row-reverse") === "row-reverse" ? "50px" : "20px"};background: #000000 ;border-radius:60px;color:fff;`},[
         __c("p" , {style:`margin-top:12px;`} , [
-            `We’re thrilled to unveil the token distribution plan for Baby Cocoro—your ticket to chaos, rewards, and high-speed degen action on Ethereum!`
+            `🔥We’re thrilled to unveil the token distribution plan for Baby Rato—your ticket to chaos, rewards, and high-speed degen action on Ethereum!`
         ]),
-        __c("p" , {style:`margin-top:12px;`} , [
-            `Total Supply: 1,000,000,000 (1B) tokens`
+        __c("p" , {style:`margin-top:0px;`} , [
+            `Getting your hands on $BABYRATO is easy! Just follow these simple steps to join the Baby Rato community and start your scamper into the future:`
         ]),
-        __c("p" , {style:``} , [
-            `🔥 Periodic burns will keep the fire alive and the supply lean.`
-        ]),
-        __c("li" , {style:`margin-top:12px;width:100%;text-align:left;font-size:17px;`} , ['65% Liquidity pool']),
-        __c("li" , {style:`margin-top:5px;width:100%;text-align:left;font-size:17px;`} , ['10% Presale']),
-        __c("li" , {style:`margin-top:5px;width:100%;text-align:left;font-size:17px;`} , ['10% Airdrop and community rewards ']),
-        __c("li" , {style:`margin-top:5px;width:100%;text-align:left;font-size:17px;`} , ['3% Creator ']),
-        __c("li" , {style:`margin-top:5px;width:100%;text-align:left;font-size:17px;`} , ['6% Development team']),
-        __c("li" , {style:`margin-top:5px;width:100%;text-align:left;font-size:17px;`} , ['6% Strategic reserve']),
-        __c("p" , {style:`margin-top:12px;`} , [
+        __c("li" , {style:`margin-top:12px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Install MetaMask or another Ethereum-compatible wallet and connect to the Ethereum Mainnet.']),
+
+        __c("li" , {style:`margin-top:5px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Buy ETH using MetaMask or transfer ETH from a centralized exchange to your wallet.']),
+
+        __c("li" , {style:`margin-top:5px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Go to Uniswap and connect your wallet.']),
+
+        __c("li" , {style:`margin-top:5px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Paste the official Baby Rato contract address into the token field.']),
+
+        __c("li" , {style:`margin-top:5px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Swap ETH for $RATO. Adjust slippage if needed and confirm the transaction.']),
+
+        __c("li" , {style:`margin-top:5px;margin-left:15px;width:100%;text-align:left;font-size:17px;color:#85c764;`} , ['Add $BABYRATO to your wallet to see your tokens.']),
+
+        __c("p" , {style:`margin-top:12px;margin-bottom:12px;`} , [
             `Let’s moon together!🐶🚀🌕`
         ]),
+        // __SYD.buyNowBtn(),
     ])
 }
 

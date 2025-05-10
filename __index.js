@@ -15,7 +15,7 @@ __sS([
         style:{
             height:'100vh',
             width:'100vw',
-            background:'#171717',
+            background:'#0d0d0d',
             backgroundPosition:"center",
             backgroundSize:"cover",
             backgroundRepeat:"no-repeat",
@@ -45,7 +45,7 @@ __sS([
             top:"0px",
             left:"0px",
             zIndex:'999',
-            // background:'#fff',
+            background:'rgb(100 153 73)',
             alignItems:'center',
             justifyContent:'space-between',
             // minHeight:'70px',
@@ -112,7 +112,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:'height:fit-content;width:100%;padding:50px;background:#000000;display:flex;align-items:center;row-gap:10px;flex-direction:column;'+__sC['txt_shade3']()
+                    style:'height:fit-content;width:100%;padding:50px;background:#000000;display:flex;align-items:center;row-gap:30px;flex-direction:column;'+__sC['txt_shade3']()
                 },
                 [
                     __c("div" , {style:"height:fit-content;width:100%;padding:60px;display:flex;align-items:center;flex-direction:column;row-gap:60px;"},[
@@ -123,95 +123,13 @@ __SYD.container = () =>{
                                 class:"footerText"
                             },
                             [
-                                "baby cocoro"
-                            ]
-                        ),
-                        // __c(
-                        //     "h2",
-                        //     {
-                        //         style:`min-width:max-content;width:100%;text-align:center;font-weight:900;color:#fff;text-transform:uppercase;`,
-                        //         class:"footerText2"
-                        //     },
-                        //     [
-                        //         "CA: -------------------------------------"
-                        //     ]
-                        // ),
-                        __c(
-                            "div",
-                            {
-                                style:"display:flex;justify-content:center;column-gap:15px;row-gap:30px;height:fit-content;width:100%;flex-wrap:wrap;"
-                            },
-                            [
-                                __c(
-                                    "a",
-                                    {
-                                        style:"height:fit-content;width:fit-content;",
-                                        href:"#"
-                                    },
-                                    [
-                                        __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/frog.png);"},[],
-                                            {
-                                                genericStyle:["bg_cover"]
-                                            })
-                                    ]
-                                ),
-                                __c(
-                                    "a",
-                                    {
-                                        style:"height:fit-content;width:fit-content;",
-                                        href:"https://x.com/babybbycoco?s=21"
-                                    },
-                                    [
-                                        __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/x.png);"},[],
-                                            {
-                                                genericStyle:["bg_cover"]
-                                            })
-                                    ]
-                                ),
-                                __c(
-                                    "a",
-                                    {
-                                        style:"height:fit-content;width:fit-content;",
-                                        href:"#"
-                                    },
-                                    [
-                                        __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/basescan.png);"},[],
-                                            {
-                                                genericStyle:["bg_cover"]
-                                            })
-                                    ]
-                                ),
-                                __c(
-                                    "a",
-                                    {
-                                        style:"height:fit-content;width:fit-content;",
-                                        href:"#"
-                                    },
-                                    [
-                                        __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/dex.png);"},[],
-                                            {
-                                                genericStyle:["bg_fit"]
-                                            })
-                                    ]
-                                ),
-                                __c(
-                                    "a",
-                                    {
-                                        style:"height:fit-content;width:fit-content;",
-                                        href:"#"
-                                    },
-                                    [
-                                        __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/uniswap.png);"},[],
-                                            {
-                                                genericStyle:["bg_fit"]
-                                            })
-                                    ]
-                                ),
+                                "baby rato"
                             ]
                         ),
                     ]),
+                    __SYD.socials__main(),
                     __c('p',{style:'font-size: .9rem;font-family:sunrise;text-align:center;font-weight:900;color:#fff;width:100vw;word-spacing:12px;'},[
-                        `© ${new Date().getFullYear()} All Right Reserved by  $Baby Cocoro `
+                        `© ${new Date().getFullYear()} All Right Reserved by  $Baby Rato `
                     ]),
                     __c(
                         "div",
@@ -232,6 +150,83 @@ __SYD.container = () =>{
         }
     )
 }
+
+__SYD.socials__main = () =>{
+    return __c(
+    "div",
+    {
+        style:"display:flex;justify-content:center;column-gap:15px;row-gap:30px;height:fit-content;width:100%;flex-wrap:wrap;"
+    },
+    [
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/frog.png);"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"https://x.com/babybbycoco?s=21"
+            },
+            [
+                __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/x.png);"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/basescan.png);"},[],
+                    {
+                        genericStyle:["bg_cover"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/dex_.png);"},[],
+                    {
+                        genericStyle:["bg_fit"]
+                    })
+            ]
+        ),
+        __c(
+            "a",
+            {
+                style:"height:fit-content;width:fit-content;",
+                href:"#"
+            },
+            [
+                __c("div" , {style:"height:70px;min-width:200px;border-radius:30px;border:4px dashed rgb(100 153 73);background-image:url(./assets/uniswap_.png);"},[],
+                    {
+                        genericStyle:["bg_fit"]
+                    })
+            ]
+        ),
+    ])
+}
+
+
 
 __SYD.navBar = () =>{
     return __c(
@@ -259,7 +254,7 @@ __SYD.navBar = () =>{
                     __c(
                         'div',
                         {
-                            style:`min-height:${__p(['navBar','l_size'],'50px')};min-width:35px;border-radius:unset;background-image:url('./assets/mainLogo.png');border-radius:10px;background-color:transparent;`,
+                            style:`min-height:60px;min-width:40px;border-radius:unset;background-image:url('./assets/n_logo.png');border-radius:20px;background-color:transparent;`,
                         },[],{genericStyle:['bg_cover']}
                     ),
                     // __c('h1',{class:'',style:`color:#fff;font-family:header;font-size:${__p(['navBar','padd'],'20px') === '20px' ? "18px" : "14px"};`+__sC['txt_shade2']({method:"remove",style:['color']})},[' $BABY COCORO ']),
@@ -375,7 +370,7 @@ __SYD.mobileMenu = () =>{
     return __c(
         'div',
         {
-            style:`height:fit-content;width:fit-content;min-width:200px;padding:20px 10px;display:${__p(['mobileMenu','_d'],'none')};flex-direction:column;row-gap:20px;background:#ffffff;border:1px solid #000000;border-left:2px solid #000000;border-bottom:2px solid #000000;border-radius:15px;border-top-right-radius:unset;border-bottom-right-radius:unset;position:absolute;top:100%;right:0;opacity:${__p(['mobileMenu','_op'],'0')};transition:opacity .3s linear;box-shadow:-2px 2px 10px #333333b3;`,
+            style:`height:fit-content;width:fit-content;min-width:200px;padding:20px 10px;display:${__p(['mobileMenu','_d'],'none')};flex-direction:column;row-gap:20px;background:#000000;border-radius:15px;border-top-right-radius:unset;border-bottom-right-radius:unset;position:absolute;top:100%;right:0;opacity:${__p(['mobileMenu','_op'],'0')};transition:opacity .3s linear;`,
             tabindex:'1',
             class:'mobile_menu'
         },
@@ -450,5 +445,5 @@ __SYD.page1SocialBtn = ({contentSrc,link = '#'}) =>{
 __m(__SYD.container())
 
 addEventListener('DOMContentLoaded' , e =>{
-    manage_mediaQuery(window.innerWidth)
+    manage_mediaQuery(window.innerWidth);
 })

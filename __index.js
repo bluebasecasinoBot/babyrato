@@ -175,7 +175,7 @@ __SYD.socials__main = () =>{
             "a",
             {
                 style:"height:fit-content;width:fit-content;",
-                href:"https://x.com/babybbycoco?s=21"
+                href:"https://x.com/babybabyrato?s=21"
             },
             [
                 __c("div" , {style:"height:70px;min-width:70px;border-radius:50%;border:4px dashed rgb(100 153 73);background-image:url(./assets/x.png);"},[],
